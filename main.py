@@ -19,7 +19,7 @@ def dotproduct(v1, v2):
 def run():
     # A list to put moving trajectory
     traceList = []
-    vs = cv2.VideoCapture("example_01.mp4")     #http//alonso:manuel2007@192.168.1.3:8040/video -> ip camera
+    vs = cv2.VideoCapture("example_01.mp4")     #http//alonso:manuel@192.168.1.3:8040/video -> ip camera
                                                 #/home/djalonso/Downloads/example_01.mp4        -> using a video (path)
     # Background frame
     lastFrame = None
